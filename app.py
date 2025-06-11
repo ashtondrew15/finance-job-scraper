@@ -4,7 +4,7 @@ import pandas as pd
 import time
 from datetime import datetime
 
-# Placeholder for later modules
+from scraping.scraper_loader import load_scrapers
 st.set_page_config(page_title="Finance Job Scraper", layout="wide")
 
 st.title("📊 Finance Job Scraper + Auto Apply")
