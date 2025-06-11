@@ -23,7 +23,7 @@ st.sidebar.header("🔍 Filters")
 keyword = st.sidebar.text_input("Keywords", "financial analyst")
 location = st.sidebar.selectbox("Location", ["Orlando, FL", "Remote", "Hybrid"])
 test_mode = st.sidebar.checkbox("🧪 Test mode", value=True)
-selected_boards = st.sidebar.multiselect("Select job boards", ["Indeed", "Remote OK", "CareerJet"], default=["Indeed"])
+selected_boards = st.sidebar.multiselect("Select job boards", ["Remote OK"], default=["Remote OK"])
 run_button = st.sidebar.button("🚀 Run Job Search")
 
 if run_button:
