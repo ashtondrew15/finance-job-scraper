@@ -3,6 +3,9 @@ import streamlit as st
 import pandas as pd
 import time
 from datetime import datetime
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.dirname(__file__)))
 
 from scraping.scraper_loader import load_scrapers
 st.set_page_config(page_title="Finance Job Scraper", layout="wide")
