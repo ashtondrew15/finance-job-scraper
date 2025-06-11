@@ -19,4 +19,3 @@ def scrape_remoteok(keyword, location):
                 "Link": link
             })
     return jobs
-  add remoteok scraper
